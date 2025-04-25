@@ -11,13 +11,10 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Cnds.OnCollision,
 		C3.Behaviors.Bullet.Acts.SetEnabled,
 		C3.Plugins.Sprite.Acts.SetAngle,
-		C3.Behaviors.Bullet.Acts.SetAcceleration,
 		C3.Plugins.Keyboard.Cnds.OnKey,
 		C3.Plugins.Sprite.Acts.SetMirrored,
 		C3.Behaviors.Bullet.Acts.SetAngleOfMotion,
 		C3.Plugins.Sprite.Exps.Angle,
-		C3.Behaviors.Bullet.Acts.SetSpeed,
-		C3.Behaviors.Bullet.Exps.Speed,
 		C3.Behaviors.Bullet.Cnds.CompareSpeed,
 		C3.Plugins.Sprite.Acts.Destroy
 	];

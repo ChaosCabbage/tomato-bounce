@@ -1223,14 +1223,9 @@ function or(l, r)
 
 self.C3_ExpressionFuncs = [
 		() => 0,
-		() => -100,
 		p => {
 			const n0 = p._GetNode(0);
 			return () => (n0.ExpObject() + 30);
-		},
-		p => {
-			const n0 = p._GetNode(0);
-			return () => (n0.ExpBehavior() - 50);
 		},
 		() => 1
 ];
